@@ -13,5 +13,3 @@ layout: layout
 {% include education.md %}
 
 {% include awards.md %}
-
-{% include blogs.md %}
