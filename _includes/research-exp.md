@@ -13,7 +13,7 @@
 <h1>A Scalable and Privacy-Aware IoT Service for Live Video Analytics (MMSys'17 and TOMM) <br/><i>Best Paper Award</i></h1>
 <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2016 - Jan. 2017</time></span>
 </header>
-[Paper](http://dl.acm.org/citation.cfm?id=3083192) [Slides]({{ site.url }}/assets/MMSys17.pptx) [Demo](https://youtu.be/gQa8oScFS94) [Talk](https://youtu.be/dUrXwauMTSQ)
+[Conference Paper](assets/mmsys17.pdf) [Journal Paper](assets/tomm18.pdf) [Slides]({{ site.url }}/assets/MMSys17.pptx) [Demo](https://youtu.be/gQa8oScFS94) [Talk](https://youtu.be/dUrXwauMTSQ)
 
 * Designed and implemented a real-time IoT privacy mediation system that selectively blurs faces
 * Adopted a cloudlet-based approach to achieve separation of trust and ensure platform integrity
@@ -26,7 +26,7 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 (SEC'17)</h1>
 <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2016 - August. 2017</time></span>
 </header>
-[Paper](https://dl.acm.org/citation.cfm?id=3134458) [Demo](https://youtu.be/uy17Hz5xvmY)
+[Paper](assets/sec17.pdf) [Demo](https://youtu.be/uy17Hz5xvmY)
 
 * Assisted user study on the latency requirements of wearable cognitive assistance
 </article>
@@ -35,7 +35,7 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 <h1>Quantifying the Impact of Edge Computing on Mobile Applications (APSys'16)</h1>
 <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2015 - present</time></span>
 </header>
-[Paper](http://dl.acm.org/citation.cfm?id=2967369) [Slides]({{ site.url }}/assets/APSys16.pptx)
+[Paper](assets/apsys16.pdf) [Slides]({{ site.url }}/assets/APSys16.pptx)
 
 * Measured network latency for cloudlets, small-scale datacenters located at the edge of the Internet, under Wi-Fi and 4G LTE networks
 * Measured energy consumption on mobile devices when offloading heavy computation to cloudlets
@@ -58,7 +58,7 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 <h1>UbiK: Ubiquitous Keyboard for Small Mobile Devices (MobiSys'14)</h1>
 <span><address>Undergraduate Research Assistant, University of Wisconsin-Madison, Advisor: Prof. Xinyu Zhang</address><time>May 2013 - Dec. 2013</time></span>
 </header>
-[Paper](http://dl.acm.org/citation.cfm?id=2594384) [Slides]({{ site.url }}/assets/MobiSys17.pptx) [Demo](https://www.youtube.com/watch?v=RIIQGNYCFyk)
+[Paper](assets/mobisys14.pdf) [Slides]({{ site.url }}/assets/MobiSys17.pptx) [Demo](https://www.youtube.com/watch?v=RIIQGNYCFyk)
 
 * Designed and implemented the paper keyboard UbiK, leveraging audio and motion signals received by a smartphone to detect and recognize different keys
 * Performed feasibility tests and discovered multipath fading audio signatures of keystrokes on conventional surfaces
