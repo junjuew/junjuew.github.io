@@ -1,5 +1,7 @@
 # Source for My Personal Website
 
+You can find my calendar [here](https://junjuew.github.io/calendar.html).
+
 ## Acknowledgement
 
 This website uses template [Vitae](https://github.com/biomadeira/vitae).
