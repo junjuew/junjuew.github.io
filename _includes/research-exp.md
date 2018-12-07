@@ -6,11 +6,10 @@
 <h1>Bandwidth-efficient Live Video Analytics for Drones via Edge Computing (to appear in SEC'18)</h1>
 <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2017 - May. 2018</time></span>
 </header>
-[Paper](assets/sec18.pdf) [Slides]assets/SEC18.pptx) [Datasets (Raft and Elephants)](https://drive.google.com/drive/folders/1qBGLDdSxfEkTX6hT6RUouadnDJjzAGAv?usp=sharing)
+[Paper](assets/sec18.pdf) [Slides](assets/SEC18.pptx) [Datasets (Raft and Elephants)](https://drive.google.com/drive/folders/1qBGLDdSxfEkTX6hT6RUouadnDJjzAGAv?usp=sharing)
 
 * Designed an edge-based architecture enabling live video analytics on small autonomous drones for search and rescue tasks.
 * Proposed and evaluated four different techniques to reduce wireless bandwidth usage when offloading computation, e.g. early discard, just-in-time learning, reachback, and context-awareness.
-* 
 </article>
 
 <article markdown="1">
