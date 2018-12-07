@@ -6,6 +6,11 @@
 <h1>Bandwidth-efficient Live Video Analytics for Drones via Edge Computing (to appear in SEC'18)</h1>
 <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2017 - May. 2018</time></span>
 </header>
+[Paper](assets/sec18.pdf) [Slides]assets/SEC18.pptx) [Datasets (Raft and Elephants)](https://drive.google.com/drive/folders/1qBGLDdSxfEkTX6hT6RUouadnDJjzAGAv?usp=sharing)
+
+* Designed an edge-based architecture enabling live video analytics on small autonomous drones for search and rescue tasks.
+* Proposed and evaluated four different techniques to reduce wireless bandwidth usage when offloading computation, e.g. early discard, just-in-time learning, reachback, and context-awareness.
+* 
 </article>
 
 <article markdown="1">
@@ -58,7 +63,7 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 <h1>UbiK: Ubiquitous Keyboard for Small Mobile Devices (MobiSys'14)</h1>
 <span><address>Undergraduate Research Assistant, University of Wisconsin-Madison, Advisor: Prof. Xinyu Zhang</address><time>May 2013 - Dec. 2013</time></span>
 </header>
-[Paper](assets/mobisys14.pdf) [Slides]({{ site.url }}/assets/MobiSys17.pptx) [Demo](https://www.youtube.com/watch?v=RIIQGNYCFyk)
+[Paper](assets/mobisys14.pdf) [Slides]({{ site.url }}/assets/MobiSys14.pptx) [Demo](https://www.youtube.com/watch?v=RIIQGNYCFyk)
 
 * Designed and implemented the paper keyboard UbiK, leveraging audio and motion signals received by a smartphone to detect and recognize different keys
 * Performed feasibility tests and discovered multipath fading audio signatures of keystrokes on conventional surfaces
