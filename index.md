@@ -4,6 +4,8 @@ layout: layout
 
 {% include bio.md %}
 
+{% include sched.md %}
+
 {% include research-exp.md %}
 
 {% include publications.md %}
