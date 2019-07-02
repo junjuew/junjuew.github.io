@@ -14,6 +14,8 @@ and enhance users' abilities to interact with the real world. I won the
 [Siemens FutureMakers
 Challenge](http://news.usa.siemens.biz/press-release/siemens-usa/siemens-leading-us-universities-host-series-rd-challenges-bolster-innovati)
 in 2018 to work on development frameworks for creating object detectors with Deep Neural
-Networks. More recently, I proposed my thesis **Scaling Wearable Cognitive
-Assistance**. You can find my proposal [here](assets/proposal.pdf).
+Networks.
+
+More recently, I proposed my thesis **Scaling Wearable Cognitive
+Assistance**. You can find my proposal [here](assets/proposal.pdf) and slides [here](https://docs.google.com/presentation/d/1emsF2sAW5hHkqfmRukVYdgsv-5PlN0HzDa1gFLpJMoY/edit?usp=sharing).
 </section>
