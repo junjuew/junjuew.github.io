@@ -2,7 +2,7 @@
 
 # Biography
 
-I am a fourth year Ph.D. student at Carnegie Mellon University, Computer Science
+I am a final year Ph.D. student at Carnegie Mellon University, Computer Science
 Department. My research interest lies at the intersection of mobile computing,
 computer vision, and human-computer interaction. Particularly, I'm working on
 **wearable cognitive assistance** running on
@@ -18,4 +18,5 @@ Networks.
 
 More recently, I proposed my thesis **Scaling Wearable Cognitive
 Assistance**. You can find my proposal [here](assets/proposal.pdf) and slides [here](https://docs.google.com/presentation/d/1emsF2sAW5hHkqfmRukVYdgsv-5PlN0HzDa1gFLpJMoY/edit?usp=sharing).
+
 </section>

@@ -3,14 +3,22 @@
 
 <article markdown="1">
 <header>
+<h1>Towards Scalable Edge-Native Applications (To appear in SEC'19)</h1>
+<span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2018 - May. 2019</time></span>
+</header>
+[Paper](assets/sec19.pdf)
+</article>
+
+<article markdown="1">
+<header>
 <h1>Bandwidth-efficient Live Video Analytics for Drones via Edge Computing (SEC'18)</h1>
 <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2017 - May. 2018</time></span>
 </header>
 [Paper](assets/sec18.pdf) [Slides](assets/SEC18.pptx) [Datasets (Raft and Elephant)](https://drive.google.com/drive/folders/1qBGLDdSxfEkTX6hT6RUouadnDJjzAGAv?usp=sharing)
 
-* Designed an edge-based architecture enabling live video analytics on small autonomous drones for search and rescue tasks.
-* Proposed and evaluated four different techniques to reduce wireless bandwidth usage when offloading computation, e.g. early discard, just-in-time learning, reachback, and context-awareness.
-</article>
+- Designed an edge-based architecture enabling live video analytics on small autonomous drones for search and rescue tasks.
+- Proposed and evaluated four different techniques to reduce wireless bandwidth usage when offloading computation, e.g. early discard, just-in-time learning, reachback, and context-awareness.
+  </article>
 
 <article markdown="1">
 <header>
@@ -19,33 +27,35 @@
 </header>
 [Conference Paper](assets/mmsys17.pdf) [Journal Paper](assets/tomm18.pdf) [Slides]({{ site.url }}/assets/MMSys17.pptx) [Demo](https://youtu.be/gQa8oScFS94) [Talk](https://youtu.be/dUrXwauMTSQ)
 
-* Designed and implemented a real-time IoT privacy mediation system that selectively blurs faces
-* Adopted a cloudlet-based approach to achieve separation of trust and ensure platform integrity
-* Leveraged object tracking to speed-up face detection and DNN-based face recognition
-</article>
-<article markdown="1">
-<header>
-<h1>
-An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance
-(SEC'17)</h1>
-<span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2016 - August. 2017</time></span>
-</header>
-[Paper](assets/sec17.pdf) [Demo](https://youtu.be/uy17Hz5xvmY)
+- Designed and implemented a real-time IoT privacy mediation system that selectively blurs faces
+- Adopted a cloudlet-based approach to achieve separation of trust and ensure platform integrity
+- Leveraged object tracking to speed-up face detection and DNN-based face recognition
 
-* Assisted user study on the latency requirements of wearable cognitive assistance
-</article>
-<article markdown="1">
-<header>
-<h1>Quantifying the Impact of Edge Computing on Mobile Applications (APSys'16)</h1>
-<span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2015 - present</time></span>
-</header>
-[Paper](assets/apsys16.pdf) [Slides]({{ site.url }}/assets/APSys16.pptx)
+  </article>
+  <article markdown="1">
+  <header>
+  <h1>
+  An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance
+  (SEC'17)</h1>
+  <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2016 - August. 2017</time></span>
+  </header>
+  [Paper](assets/sec17.pdf) [Demo](https://youtu.be/uy17Hz5xvmY)
 
-* Measured network latency for cloudlets, small-scale datacenters located at the edge of the Internet, under Wi-Fi and 4G LTE networks
-* Measured energy consumption on mobile devices when offloading heavy computation to cloudlets
-* Analyzed system design trade-off between response latency and energy consumption in edge computing
-* Maintained and debugged in-lab cellular base station
-</article>
+- Assisted user study on the latency requirements of wearable cognitive assistance
+
+  </article>
+  <article markdown="1">
+  <header>
+  <h1>Quantifying the Impact of Edge Computing on Mobile Applications (APSys'16)</h1>
+  <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2015 - present</time></span>
+  </header>
+  [Paper](assets/apsys16.pdf) [Slides]({{ site.url }}/assets/APSys16.pptx)
+
+- Measured network latency for cloudlets, small-scale datacenters located at the edge of the Internet, under Wi-Fi and 4G LTE networks
+- Measured energy consumption on mobile devices when offloading heavy computation to cloudlets
+- Analyzed system design trade-off between response latency and energy consumption in edge computing
+- Maintained and debugged in-lab cellular base station
+  </article>
 
 <article markdown="1">
 <header>
@@ -64,11 +74,11 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 </header>
 [Paper](assets/mobisys14.pdf) [Slides]({{ site.url }}/assets/MobiSys14.pptx) [Demo](https://www.youtube.com/watch?v=RIIQGNYCFyk)
 
-* Designed and implemented the paper keyboard UbiK, leveraging audio and motion signals received by a smartphone to detect and recognize different keys
-* Performed feasibility tests and discovered multipath fading audio signatures of keystrokes on conventional surfaces
-* Modified Android kernel TinyALSA audio driver to enable dual microphone recording and double feature space 
-* Benchmarked and evaluated UbiK, demonstrating faster typing experiences than on-screen keyboards in user studies
-</article>
+- Designed and implemented the paper keyboard UbiK, leveraging audio and motion signals received by a smartphone to detect and recognize different keys
+- Performed feasibility tests and discovered multipath fading audio signatures of keystrokes on conventional surfaces
+- Modified Android kernel TinyALSA audio driver to enable dual microphone recording and double feature space
+- Benchmarked and evaluated UbiK, demonstrating faster typing experiences than on-screen keyboards in user studies
+  </article>
 
 <article markdown="1">
 <header>
@@ -78,7 +88,6 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 * Designed and prototyped an in-kernel hash-based key-value storage system optimized for SSD read/write characteristics
 * Implemented a C benchmark framework to evaluate system performance
 </article>
-
 
 <article markdown="1">
 <header>
