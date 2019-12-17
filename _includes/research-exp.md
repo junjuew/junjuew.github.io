@@ -79,7 +79,7 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 - Performed feasibility tests and discovered multipath fading audio signatures of keystrokes on conventional surfaces
 - Modified Android kernel TinyALSA audio driver to enable dual microphone recording and double feature space
 - Benchmarked and evaluated UbiK, demonstrating faster typing experiences than on-screen keyboards in user studies
-  </article>
+</article>
 
 <article markdown="1">
 <header>
@@ -98,4 +98,5 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 * Rewrote 6 UT-Austin LonestarGPU CUDA benchmarks into equivalent C++ and OpenCL programs
 * Collected and examined program features with PIN and MICA binary instrumentation framework
 </article>
+
 </section>
