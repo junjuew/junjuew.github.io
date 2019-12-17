@@ -18,7 +18,7 @@
 
 - Designed an edge-based architecture enabling live video analytics on small autonomous drones for search and rescue tasks.
 - Proposed and evaluated four different techniques to reduce wireless bandwidth usage when offloading computation, e.g. early discard, just-in-time learning, reachback, and context-awareness.
-  </article>
+</article>
 
 <article markdown="1">
 <header>
@@ -30,32 +30,33 @@
 - Designed and implemented a real-time IoT privacy mediation system that selectively blurs faces
 - Adopted a cloudlet-based approach to achieve separation of trust and ensure platform integrity
 - Leveraged object tracking to speed-up face detection and DNN-based face recognition
+</article>
 
-  </article>
-  <article markdown="1">
-  <header>
-  <h1>
-  An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance
-  (SEC'17)</h1>
-  <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2016 - August. 2017</time></span>
-  </header>
-  [Paper](assets/sec17.pdf) [Demo](https://youtu.be/uy17Hz5xvmY)
+<article markdown="1">
+<header>
+<h1>
+An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance
+(SEC'17)</h1>
+<span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2016 - August. 2017</time></span>
+</header>
+[Paper](assets/sec17.pdf) [Demo](https://youtu.be/uy17Hz5xvmY)
 
 - Assisted user study on the latency requirements of wearable cognitive assistance
 
-  </article>
-  <article markdown="1">
-  <header>
-  <h1>Quantifying the Impact of Edge Computing on Mobile Applications (APSys'16)</h1>
-  <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2015 - present</time></span>
-  </header>
-  [Paper](assets/apsys16.pdf) [Slides]({{ site.url }}/assets/APSys16.pptx)
+</article>
+
+<article markdown="1">
+<header>
+<h1>Quantifying the Impact of Edge Computing on Mobile Applications (APSys'16)</h1>
+<span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2015 - present</time></span>
+</header>
+[Paper](assets/apsys16.pdf) [Slides]({{ site.url }}/assets/APSys16.pptx)
 
 - Measured network latency for cloudlets, small-scale datacenters located at the edge of the Internet, under Wi-Fi and 4G LTE networks
 - Measured energy consumption on mobile devices when offloading heavy computation to cloudlets
 - Analyzed system design trade-off between response latency and energy consumption in edge computing
 - Maintained and debugged in-lab cellular base station
-  </article>
+</article>
 
 <article markdown="1">
 <header>
