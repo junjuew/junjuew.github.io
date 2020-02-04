@@ -3,7 +3,7 @@
 
 <article markdown="1">
 <header>
-<h1>Towards Scalable Edge-Native Applications (To appear in SEC'19)</h1>
+<h1>Towards Scalable Edge-Native Applications (SEC'19)</h1>
 <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2018 - May. 2019</time></span>
 </header>
 [Paper](assets/sec19.pdf) [Slides](https://docs.google.com/presentation/d/1p_54Z0LJeBf_RWuUiws9AD6goon7Ezh-BZnwBb4u0SQ/edit?usp=sharing)
