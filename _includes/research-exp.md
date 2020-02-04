@@ -36,6 +36,7 @@
 - Leveraged object tracking to speed-up face detection and DNN-based face recognition
 </article>
 
+<!--
 <article markdown="1">
 <header>
 <h1>
@@ -48,6 +49,7 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 - Assisted user study on the latency requirements of wearable cognitive assistance
 
 </article>
+-->
 
 <article markdown="1">
 <header>
@@ -62,6 +64,7 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 - Maintained and debugged in-lab cellular base station
 </article>
 
+<!--
 <article markdown="1">
 <header>
 <h1>TPOD: Tools for Painless Object Detection</h1>
@@ -71,6 +74,7 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 * Automated creating deep neural network based object detectors using Faster-RCNN and transfer learning.
 * Implemented a proactive object labeling web interface that employs tracking for auto-annotation and effectively reduces manual labeling workload to 10%.
 </article>
+-->
 
 <article markdown="1">
 <header>
@@ -85,6 +89,7 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 - Benchmarked and evaluated UbiK, demonstrating faster typing experiences than on-screen keyboards in user studies
 </article>
 
+<!--
 <article markdown="1">
 <header>
 <h1>In-Kernel Key-Value Storage System</h1>
@@ -102,5 +107,6 @@ An Empirical Study of Latency in an Emerging Class of Edge Computing Application
 * Rewrote 6 UT-Austin LonestarGPU CUDA benchmarks into equivalent C++ and OpenCL programs
 * Collected and examined program features with PIN and MICA binary instrumentation framework
 </article>
+-->
 
 </section>
