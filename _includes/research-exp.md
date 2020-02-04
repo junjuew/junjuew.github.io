@@ -6,7 +6,11 @@
 <h1>Towards Scalable Edge-Native Applications (To appear in SEC'19)</h1>
 <span><address>Graduate Research Assistant, Carnegie Mellon University, Advisor: Prof. Satya</address><time>Sept. 2018 - May. 2019</time></span>
 </header>
-[Paper](assets/sec19.pdf)
+[Paper](assets/sec19.pdf) [Slides](https://docs.google.com/presentation/d/1p_54Z0LJeBf_RWuUiws9AD6goon7Ezh-BZnwBb4u0SQ/edit?usp=sharing)
+
+- Leveraged application characteristics to reduce offered load.
+- Proposed and evaluated a profiling-based resource allocation mechanism for edge servers.
+- Reduced offered load by 40 % and maintained application quality of service in severely loaded edge servers.
 </article>
 
 <article markdown="1">
