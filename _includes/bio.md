@@ -2,21 +2,27 @@
 
 # Biography
 
-I am a final year Ph.D. student at Carnegie Mellon University, Computer Science
-Department. My research interest lies at the intersection of mobile computing,
-computer vision, and human-computer interaction. Particularly, I'm working on
-**wearable cognitive assistance** running on
-[cloudlets](http://elijah.cs.cmu.edu/) under the guidance of [Prof. Mahadev
-Satyanarayanan (Satya)](https://www.cs.cmu.edu/~satya/). I aim to apply recent
+I am a final year Ph.D. student at Computer Science
+Department, Carnegie Mellon University. My PhD dissertation focuses on system support 
+for machine learning workload. I worked on a
+new genre of real-time deep video analytics called **Wearable Cognitive Assistants** ([demos](https://www.youtube.com/playlist?list=PLMP5vmwBuCAg1ezp5_QeDhfHHrmI3xW6S)). 
+I built prototype
+applications and designed system optimizations to scale video analytics at the edge.
+I aim to apply recent
 advancement in mobile and computer vision to blur the boundary between the
 physical and virtual world, build portable and intelligent cognitive systems,
-and enhance users' abilities to interact with the real world. I won the
+and enhance users' abilities to interact with the real world. 
+
+I am advised by [Prof. Mahadev
+Satyanarayanan (Satya)](https://www.cs.cmu.edu/~satya/). 
+You can find my PhD thesis proposal [here](assets/proposal.pdf) and slides [here](https://docs.google.com/presentation/d/1emsF2sAW5hHkqfmRukVYdgsv-5PlN0HzDa1gFLpJMoY/edit?usp=sharing).
+
+<!---
+I won the
 [Siemens FutureMakers
 Challenge](http://news.usa.siemens.biz/press-release/siemens-usa/siemens-leading-us-universities-host-series-rd-challenges-bolster-innovati)
 in 2018 to work on development frameworks for creating object detectors with Deep Neural
 Networks.
-
-More recently, I proposed my thesis **Scaling Wearable Cognitive
-Assistance**. You can find my proposal [here](assets/proposal.pdf) and slides [here](https://docs.google.com/presentation/d/1emsF2sAW5hHkqfmRukVYdgsv-5PlN0HzDa1gFLpJMoY/edit?usp=sharing).
+-->
 
 </section>
