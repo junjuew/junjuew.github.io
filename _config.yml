@@ -1,35 +1,37 @@
-#highlighter: pygments
-#markdown: kramdown
-#future: true
-#kramdown:
-#  parse_block_html: true
-#  syntax_highlighter: rouge
-#markdown: rdiscount
-#rdiscount:
-#  extensions: [smart]
-
-permalink: /:month-:day-:year/:title.html
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: junjuew.github.io
+author: Junjue Wang
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
-
-port: 4000
-#safe: true
 
 # for a normal use at the base of the server change it to "/"
 baseurl: /
 title: Junjue (Jay) Wang
 description: Junjue (Jay) Wang Personal Website
 url: junjuew.github.io
-author: JunjueWang
 name: Junjue (Jay) Wang <br/>王俊珏
 email: junjuew at alumni dot cmu dot edu
 website: junjuew.github.io
 website_full: https://junjuew.github.io
 github: junjuew
 twitter: 
+tel:
+tel_full:
 google_maps: 'https://goo.gl/maps/hi1e7TExpMmkembr9'
 address: Bay Area, CA
+  # street: 44 Perth Street
+  # postcode: EH3 5BL
+  # city: Edinburgh
+  # country: United Kingdom
 postcode: 
 city: 
 country: 
