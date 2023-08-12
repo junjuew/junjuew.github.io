@@ -32,7 +32,7 @@ address:
   # street:
   # postcode:
   # country:
-google_analytics: 386254244
+# google_analytics: 386254244
 
 # needed for travis-ci build
 exclude: [vendor]
