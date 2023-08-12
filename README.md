@@ -2,6 +2,14 @@
 
 You can find my calendar [here](https://junjuew.github.io/calendar.html).
 
+## Build
+
+1. 
+```
+bundle exec jekyll serve
+```
+2. Push the resulting _site/ to main branch.
+
 ## Acknowledgement
 
 This website uses template [Vitae](https://github.com/biomadeira/vitae).

@@ -2,6 +2,13 @@
 
 # Biography
 
+I'm a researcher at Apple, working on  Vision Pro.  
+
+<br/>
+
+Previously, I was at SambaNova Systems redesigning computer systems for machine learning. I got my PhD in Computer Science from Carnegie Mellon University ([thesis](http://reports-archive.adm.cs.cmu.edu/anon/2020/CMU-CS-20-107.pdf)). See my [LinkedIn](https://www.linkedin.com/in/junjue-jay-wang/) for details.
+
+<!--
 I am a final year CS Ph.D. student at Carnegie Mellon University, graduating in May 2020.
 My PhD dissertation focuses on system support 
 for machine learning workload. 
@@ -16,7 +23,6 @@ My PhD advisor is [Prof. Mahadev
 Satyanarayanan (Satya)](https://www.cs.cmu.edu/~satya/). 
 You can find my PhD thesis proposal [here](assets/proposal.pdf) and slides [here](https://docs.google.com/presentation/d/1emsF2sAW5hHkqfmRukVYdgsv-5PlN0HzDa1gFLpJMoY/edit?usp=sharing).
 
-<!---
 I worked on a
 new genre of real-time deep video analytics called **Wearable Cognitive Assistants** .
 I aim to apply recent

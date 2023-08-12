@@ -4,37 +4,34 @@ rdiscount:
   extensions: [smart]
 permalink: :title.html
 paginate: 5
-plugins: [jekyll-paginate]
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 port: 4000
 safe: true
 url: junjuew.github.io
 author: Junjue Wang
-gems:
-  - jekyll-seo-tag
-  - jekyll-sitemap
 
 # for a normal use at the base of the server change it to "/"
 baseurl: /
 title: Junjue (Jay) Wang
-description: Junjue (Jay) Wang Personal Website
+# description:
 url: junjuew.github.io
 name: Junjue (Jay) Wang <br/>王俊珏
-email: junjuew at alumni dot cmu dot edu
+email: junjuewang01 at gmail dot com
 website: junjuew.github.io
 website_full: https://junjuew.github.io
 github: junjuew
-twitter: 
-tel:
-tel_full:
-google_maps: 'https://goo.gl/maps/hi1e7TExpMmkembr9'
-address: Bay Area, CA
-  # street: 44 Perth Street
-  # postcode: EH3 5BL
-  # city: Edinburgh
-  # country: United Kingdom
-postcode: 
-city: 
-country: 
+# twitter: 
+# tel:
+# tel_full:
+google_maps: https://goo.gl/maps/hi1e7TExpMmkembr9
+address:
+  city: Bay Area, CA
+  # street:
+  # postcode:
+  # country:
 google_analytics: 386254244
 
 # needed for travis-ci build
