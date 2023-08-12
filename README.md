@@ -4,6 +4,10 @@ You can find my calendar [here](https://junjuew.github.io/calendar.html).
 
 ## Build
 
+Currently this website is built and published via Github actions.
+
+Alternatively, this can also be done manually.
+
 1. 
 ```
 bundle exec jekyll serve
