@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT8T2Z9WYF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TT8T2Z9WYF');
+    </script>
+    <meta name="google-site-verification" content="rbfU4bc90Wlsy1jLbEpmQDid692W5mdKzpZ2JYx9F4w" />
+
     <meta charset="utf-8">
     <meta name="author" content="{{ site.name }} @{{ site.github }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="google-site-verification" content="rbfU4bc90Wlsy1jLbEpmQDid692W5mdKzpZ2JYx9F4w" />
 
     <link rel="stylesheet" href="{{ "/static/css/base.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/static/css/skeleton.css" | relative_url }}">
@@ -48,15 +58,5 @@
     </footer> -->
     </div>
 </div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', '{{ site.google_analytics }}', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </body>
 </html>
