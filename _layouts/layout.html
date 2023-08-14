@@ -16,7 +16,7 @@
 
     <meta charset="utf-8">
     <meta name="author" content="{{ site.name }} @{{ site.github }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="{{ "/static/css/base.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/static/css/skeleton.css" | relative_url }}">
@@ -38,9 +38,11 @@
     {% seo %}
 </head>
 <body>
+
+<main role="main">
 <div class="container">
     <header class="three columns">
-        <img src="{{ "/static/img/profile.jpg" | relative_url }}" width=150 height=210 class="me">
+        <img src="{{ "/static/img/profile.jpg" | relative_url }}" width=150 height=210 class="me" alt="Junjue Jay Wang Profile Picture">
         <h1>{{ site.name }}</h1>
         <a href="{{ site.google_maps }}"> {{ site.address.city }} </a>
             <!-- {{ site.address.street }}<br/>
@@ -66,5 +68,7 @@
     </footer> -->
     </div>
 </div>
+</main>
+
 </body>
 </html>
