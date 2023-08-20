@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-TT8T2Z9WYF"></script> -->
+    <!-- Perf optimization see: https://jsinibardy.com/optimize-seo-jekyll -->
+    <link rel="preconnect" as="script" href="https://www.googletagmanager.com/gtag/js?id=G-TT8T2Z9WYF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TT8T2Z9WYF');
+    </script>
+    <meta name="google-site-verification" content="0wRJvYEFAdnpO3cSBenVyDHmlePqJQZaWfkt1CZVuho" />
+
+    <meta charset="utf-8">
+    <meta name="author" content="Junjue (Jay) Wang <br/>王俊珏 @junjuew">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="stylesheet" href="/static/css/layout.css">
+    <link rel="stylesheet" href="/static/css/academicons.min.css">
+
+    <!-- since we only used the github icon from font awesome. decide to embed a svg directly instead of loading a css for better 
+    page load time -->
+    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="/static/img/favicon.ico">
+    <!-- <link rel="apple-touch-icon" href="static/img/me-icon-57.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
+    <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Mouse-free Copy + Paste on Linux (Ubuntu) | Junjue (Jay) Wang</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Mouse-free Copy + Paste on Linux (Ubuntu)" />
+<meta name="author" content="Junjue Wang" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Fix copy paste on Ubuntu" />
+<meta property="og:description" content="Fix copy paste on Ubuntu" />
+<link rel="canonical" href="https://www.junjuewang.com/linux-copy-paste.html" />
+<meta property="og:url" content="https://www.junjuewang.com/linux-copy-paste.html" />
+<meta property="og:site_name" content="Junjue (Jay) Wang" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-05-21T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Mouse-free Copy + Paste on Linux (Ubuntu)" />
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"Junjue Wang"},"headline":"Mouse-free Copy + Paste on Linux (Ubuntu)","dateModified":"2018-05-21T00:00:00+00:00","datePublished":"2018-05-21T00:00:00+00:00","description":"Fix copy paste on Ubuntu","url":"https://www.junjuewang.com/linux-copy-paste.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.junjuewang.com/linux-copy-paste.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+
+<main role="main">
+<div class="container">
+    <header class="three columns">
+        <img src="/static/img/profile.jpg" width=150 height=210 class="me" alt="Junjue Jay Wang Profile Picture">
+        <h1>Junjue (Jay) Wang <br/>王俊珏</h1>
+        <a href="https://goo.gl/maps/hi1e7TExpMmkembr9"> Bay Area, CA </a>
+            <!-- <br/>
+            <br/> -->
+            <!--  -->
+        <a href="https://www.junjuewang.com">junjuewang.com</a><br/>
+        <p>
+            junjuewang01 at gmail dot com<br/>
+            <!-- <a href="https://github.com/junjuew"><i class="fa fa-github"></i> Github</a> -->
+            <!-- use fontawesome SVG to reduce page load time-->
+            <a href="https://github.com/junjuew">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+            Github</a>
+            <!-- <a href="https://twitter.com/"><i class="fa fa-twitter"></i> Twitter</a> -->
+        </p>
+    </header>
+    <div class="thirteen columns clearfix">
+
+        <article class="post container" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <p class="post-meta"><time datetime="2018-05-21T00:00:00+00:00" itemprop="datePublished">May 21, 2018</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Junjue Wang</span></span></p>
+  </header>
+  <section class="thirteen columns" markdown="1">
+    <h1 id="mouse-free-copy--paste-on-linux-ubuntu">Mouse-free Copy + Paste on Linux (Ubuntu)</h1>
+
+<p>Recently, a friend who is new to Ubuntu, asks me “Why cannot I copy from
+terminal to GUI application in Linux”? A quick google search finds many similar
+questions on StackOverflow UbuntuForum. However, none of the solutions given is
+satisfying. Therefore, I’d like to share my solution in this post.</p>
+
+<p>Intuitively, copy/paste function should consist of simple
+functionalities of selecting a text region, copying the region, and pasting the
+region. It should work among any applications a user is using, no matter if the
+application has a GUI, e.g. a browser, a text terminal, or an editor running in
+terminal mode.</p>
+
+<p>Sadly, this is not the case on linux. The fundamental reason is that GUI
+applications are treated differently from non GUI-based applications. Linux GUI
+applications use X11 library. These applications act as X11 clients connecting
+to a window display environment (X11 server). The copy/paste behaviors are
+supported by X11 among GUI applications. Nonetheless, for applications that do not
+use X11, e.g. emacs -nw (terminal mode), it is not able to use the copy/paste
+function supported by X11.</p>
+
+<p>If you use Emacs’s built-in M-w to copy your selection, following table
+demonstrates in which combination the following “paste” would succeed.</p>
+
+<table class="pure-table pure-table-bordered">
+  <thead>
+    <tr>
+      <th>Copy To</th>
+      <th style="text-align: center">Emacs</th>
+      <th style="text-align: right">Emacs -nw (Terminal Mode**</th>
+      <th style="text-align: right">Browser</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Emacs</td>
+      <td style="text-align: center">Y</td>
+      <td style="text-align: right"> </td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>Emacs -nw</td>
+      <td style="text-align: center">N</td>
+      <td style="text-align: right">Y</td>
+      <td style="text-align: right"> </td>
+    </tr>
+    <tr>
+      <td>Browser</td>
+      <td style="text-align: center">Y</td>
+      <td style="text-align: right">N</td>
+      <td style="text-align: right">Y</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>So how do we fix this? What is a general solution to copy/paste between GUI
+applications and terminals?</p>
+
+<p>The solution is <em>Make sure we are only copying among GUI applications.</em>. What??
+You might think this is silly and not a solution at all. But hear me out. Unless
+you are dealing with a console or in a command line tty, you are probably
+running inside a desktop environment. The terminal application in Ubuntu
+defaults to gnome-terminal, which is a GUI application. In it, mouse can be used
+to select the region, Ctrl+Shift+c and Ctrl+Shift+v can be used to copy and
+paste to/from gnome-terminal.</p>
+
+<p>However, this solution involves using the mouse. And reaching out to a mouse is
+much slower than using the keyboard. To set a mark without mouse in a terminal,
+<strong>Tmux</strong> is here to help.
+<a href="http://manpages.ubuntu.com/manpages/trusty/man1/tmux.1.html">Tmux</a> is a
+terminal multiplexing tool most famous for its capability to survive abrupt ssh
+connection drops. It has a rich set of features in managing terminals. To our
+concern, it has a copy mode, in which one can use to select text inside a
+terminal with keyboard. Together with
+<a href="https://github.com/tmux-plugins/tmux-yank">tmux-yank</a> plugin, it is able to use
+X11 clipboard to copy/paste to/from other X11 applications. See my ansible role
+<a href="https://github.com/junjuew/ansible-dotfiles/blob/master/roles/bash/tasks/tmux.yml">here</a>
+and <a href="https://github.com/junjuew/ansible-dotfiles/blob/master/roles/bash/files/tmux.conf">tmux configuration
+file</a>
+to customize tmux and install tmux-yank to enable mouse-free copy/paste between terminal
+and X11 apps. With the customization, to do copy/paste, use:
+    * Enter copy mode: Ctrl-b Enter
+    * Set Mark: v
+    * Copy: y
+    * Exit copy mode: Escape
+    * Paste: Ctrl-b ]</p>
+
+  </section>
+</article>
+
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+/*
+var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//junjuew-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+    <!-- <footer class="thirteen columns">
+        <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a></p>
+    </footer> -->
+    </div>
+</div>
+</main>
+
+</body>
+</html>
