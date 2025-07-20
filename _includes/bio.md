@@ -2,11 +2,17 @@
 
 # Biography
 
+I'm a senior software engineer at Apple, working on device connectivity. See my [LinkedIn](https://www.linkedin.com/in/junjue-jay-wang/) for details.
+
+<br/>
+
+<!--
 I'm a researcher at Apple, working on  Vision Pro.  
 
 <br/>
 
 Previously, I was at SambaNova Systems redesigning computer systems for machine learning. I got my PhD in Computer Science from Carnegie Mellon University ([thesis](http://reports-archive.adm.cs.cmu.edu/anon/2020/CMU-CS-20-107.pdf)). See my [LinkedIn](https://www.linkedin.com/in/junjue-jay-wang/) for details.
+-->
 
 <!--
 I am a final year CS Ph.D. student at Carnegie Mellon University, graduating in May 2020.
