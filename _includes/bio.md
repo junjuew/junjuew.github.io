@@ -2,12 +2,13 @@
 
 # Biography
 
+<!--
 I'm a senior software engineer at Apple, working on device connectivity. See my [LinkedIn](https://www.linkedin.com/in/junjue-jay-wang/) for details.
 
 <br/>
+-->
 
-<!--
-I'm a researcher at Apple, working on  Vision Pro.  
+I'm a researcher and a senior Machine Learning Engineer at Apple, working on ML software and infrastructure for Siri and  Vision Pro.  
 
 <br/>
 
