@@ -33,6 +33,26 @@ p, address {
     margin-bottom: 0;
 }
 
+.profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em 1em;
+    margin-top: 21px;
+}
+
+.profile-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    white-space: nowrap;
+}
+
+.profile-link-icon {
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+}
+
 .me {
 /*
     width: 100px;

@@ -20,7 +20,7 @@
 
     <link rel="stylesheet" href="{{ "/static/css/base.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/static/css/skeleton.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/static/css/layout.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/static/css/layout.css" | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
     <link rel="stylesheet" href="{{ "/static/css/academicons.min.css" | relative_url }}">
 
     <!-- since we only used the github icon from font awesome. decide to embed a svg directly instead of loading a css for better 
@@ -44,7 +44,7 @@
     <header class="three columns">
         <img src="{{ "/static/img/profile.jpg" | relative_url }}" width=150 height=210 class="me" alt="Junjue Jay Wang Profile Picture">
         <h1>{{ site.name }}</h1>
-        <a href="{{ site.google_maps }}"> {{ site.address.city }} </a>
+        <a href="{{ site.google_maps }}">{{ site.address.city }}</a><br/>
             <!-- {{ site.address.street }}<br/>
             {{ site.address.postcode }}<br/> -->
             <!-- {{ site.address.country }} -->
