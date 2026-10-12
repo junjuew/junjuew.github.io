@@ -2,17 +2,21 @@
 
 You can find my calendar [here](https://junjuew.github.io/calendar.html).
 
-## Build
+## Publishing
 
-Currently this website is built and published via Github actions.
+GitHub Pages builds this Jekyll site directly from the root (`/`) of the `master`
+branch and publishes it at [www.junjuewang.com](https://www.junjuewang.com/).
 
-Alternatively, this can also be done manually.
+To publish an update, commit the source changes and push them:
 
-1. 
+```sh
+git push origin master
 ```
-bundle exec jekyll serve
-```
-2. Push the resulting _site/ to main branch.
+
+GitHub automatically runs **pages build and deployment**, which can be monitored
+in the repository's [Actions tab](https://github.com/junjuew/junjuew.github.io/actions).
+No custom deployment workflow or manual upload of generated `_site/` files is
+needed. The `gh-pages` branch is not used to publish this site.
 
 ## Acknowledgement
 
